@@ -12,7 +12,7 @@ let current = 1;
 let prev = 0
 
 
-for(let btns of buttons)
+for(let btns of buttons){
     btns.addEventListener('click',function(e)
     {
         if(e.target.id === 'right'){
@@ -46,3 +46,4 @@ for(let btns of buttons)
            
         }
     })
+}
